@@ -238,10 +238,10 @@ main {
 
 @media only screen and (min-width: 992px) {
   .diag_slides {
-    height: 30vw;
+    height: 50vw;
   }
   .section-review .main_reviews {
-    height: 30vw;
+    height: 50vw;
   }
 }
 
@@ -277,7 +277,7 @@ main {
 }
 
 .section-navbar {
-  background-color: #f5f2f2;
+  background-color: #13274A;
 }
 
 .section-info .one_section {
@@ -387,7 +387,7 @@ main {
 }
 
 .navbar .navbar-brand {
-  color: #041a40;
+  color: white;
   font-weight: 500;
   font-size: 25px;
   align-items: center;
@@ -396,7 +396,7 @@ main {
 }
 
 .navbar .navbar-brand span {
-  border: 1px solid #041a40;
+  border: 1px solid white;
   border-radius: 100%;
   align-items: center;
   height: 30px;
@@ -415,7 +415,7 @@ main {
   font-size: 16px;
 }
 .custom-navbar li a {
-  color: #041a40;
+  color: white;
 }
 
 .custom-header {
@@ -433,11 +433,27 @@ main {
 .custom-form a {
   text-decoration: none;
   padding: 6px 15px;
-  color: #041a40;
-  border: 1px solid #041a40;
+  color: white;
+  border: 1px solid white;
   border-radius: 8px;
   font-weight: 500;
   margin-left: 28px;
+}
+
+.navbar-toggler {
+   color: white !important;
+   border: 1px solid white !important;
+}
+.navbar .navbar-toggler:focus{
+  border: none !important;
+
+}
+.navbar .navbar-toggler:focus-visible{
+  border: none !important;
+}
+.navbar-toggle-icon{
+  fill: white !important;
+  height: 23px;
 }
 /* *********************************************  */
 
@@ -450,10 +466,9 @@ main {
 }
 
 .review-card {
-  background-color: #fff;
-  border-radius: 10px;
+  background-color: #fff; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   width: 100%;
   max-width: 300px;
   display: flex;
@@ -509,11 +524,16 @@ main {
   transform: rotate(-5deg);
 }
 
+ 
+
+
 .diag_slides_line {
   grid-column-gap: 1rem;
   grid-row-gap: 0.625rem;
   width: 100%;
   display: flex;
+  justify-items: center;
+  justify-content: center;
 }
 
 .bg_shadow {
