@@ -234,16 +234,7 @@ main {
 
 /* ****************************** */
 
-/* Large devices (laptops/desktops, 992px and up) */
-
-@media only screen and (min-width: 992px) {
-  .diag_slides {
-    height: 50vw;
-  }
-  .section-review .main_reviews {
-    height: 50vw;
-  }
-}
+  
 
 .diag_slides {
   flex-flow: column;
@@ -255,19 +246,19 @@ main {
 
 @media only screen and (max-width: 992px) {
   .diag_slides {
-    height: 70vw;
+    height: 50vw;
   }
   .section-review .main_reviews {
-    height: 70vw;
+    height: 50vw;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .diag_slides {
-    height: 100vw;
+    height: 120vw;
   }
   .section-review .main_reviews {
-    height: 100vw;
+    height: 120vw;
   }
 }
 
