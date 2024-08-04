@@ -1,0 +1,291 @@
+body {
+  color: white;
+}
+section {
+  display: block;
+}
+
+/* *********************************** */
+
+/* Section Signup */
+
+/* *********************************** */
+
+.section-signup {
+  background-color: #041a3f;
+  overflow: hidden;
+}
+.brandIcon {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+}
+.brandIcon span {
+  border: 1px solid white;
+  border-radius: 100%;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+.section-signup .main {
+  padding: 20px;
+  padding-top: 50px; 
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.section-signup .main .title,
+.signup-content {
+  margin-left: 0px;
+}
+.section-signup .main .sub-title {
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.section-signup .main .signup-content {
+  margin-top: 30px;
+}
+.section-signup .main .signup-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.section-signup .main .signup-content li {
+  margin: 20px 0px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.section-signup .main .signup-content li svg {
+  margin-right: 10px;
+  fill: #de761c;
+}
+
+.show-tab-images{
+  display: none;
+}
+/* --------------------------- */
+
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content-image img {
+  transition: all 1s ease;
+}
+
+.content-image img.active {
+  width: 350px;
+  height: auto;
+}
+
+.content-image img.inactive {
+  width: 100px;
+  height: auto;
+  opacity: 0.5;
+  margin: 0 10px;
+}
+
+
+
+
+/* --------------------------- */
+
+.form-signup {
+  width: 400px;
+  margin-right: 0px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  right: 100px;
+  top: 135px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 4px 4px);
+}
+
+.relative-form {
+  position: relative;
+}
+
+.form-signup form label {
+  color: black;
+}
+
+.btn-tab .tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-continue {
+  display: flex;
+  margin-top: 35px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.verify_otp .input-group {
+  width: 150px;
+}
+
+.verify_otp .inputs {
+  display: flex;
+  flex-direction: row;
+}
+.verify_otp .inputs span {
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-signup .form-links .how{
+  color: #de761c;
+  cursor: pointer;
+}
+.form-signup .form-links{
+  margin-top: 10px;
+  
+}
+.form-signup .form-links span{
+  color:black;
+  cursor: pointer;
+}
+
+/* *********************************** */
+
+/* section-howworks */
+
+/* *********************************** */
+
+.section-howworks {
+  margin-top: 50px;
+}
+
+.content {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.content h4 {
+  font-weight: 700;
+  color: black;
+}
+.how-content .content span {
+  padding-top: 0px;
+  color: rgb(63, 63, 63);
+  font-weight: 500;
+}
+.how-content {
+  margin-top: 50px;
+}
+.how-content .tabs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.how-content .tabs .content {
+  padding-left: 40px;
+}
+.how-content .tabs .steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-top: 25px;
+}
+.how-content .title {
+  color: black;
+  font-weight: 500;
+  font-size: 26px;
+}
+.how-content .tabs {
+  color: black;
+}
+
+/* *********************************** */
+
+/* section-FAQ */
+
+/* *********************************** */
+
+.section-FAQ {
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+.section-FAQ .content .title {
+  color: black;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+/* -------------------- */
+
+.accordion{
+  margin-top: 30px;
+}
+
+.accordion-button{
+  outline: none !important;
+
+}
+
+/* --------------------------- */
+
+@media (min-width: 1400px) { 
+  .form-signup {
+    right: 240px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .form-signup {
+    position: fixed;
+  }
+  .show-tab-images{
+    display: block;
+  }
+
+  .section-signup .main {
+    padding: 20px;
+    padding-top: 100px;
+    height: 650px;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
+}
+
+@media (min-width: 992px) { 
+
+  .content {
+    width: 50%;
+    padding-left: 50px;
+  }
+
+  .section-signup .main .title, .signup-content{
+    margin-left: 100px;
+  }
+ }
+
+ @media (min-width: 576px) { 
+  .form-signup {
+    margin-right: 50px;
+  }
+
+
+
+ }

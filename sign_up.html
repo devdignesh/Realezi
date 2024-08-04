@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp - Realezi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+    <link rel="stylesheet" href="sign_up.css">
+
+</head>
+
+<body>
+    <main>
+        <section class=" section-signup">
+            <div class="container">
+                <div class="main">
+                    <div class="relative-form d-flex flex-row flex-wrap justify-content-between align-items-start">
+                        <div>
+                            <div class="title">
+                                <a class="brandIcon d-flex flex-row align-items-center" href="#">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                                            fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
+                                        </svg>
+                                    </span>
+                                    Realezi
+                                </a>
+
+                                <div class="sub-title">
+                                    <span>Click. Connect. Close</span>
+                                </div>
+                            </div>
+                            <div class="signup-content">
+                                <ul>
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                        </svg>Post your property ad for free</li>
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                        </svg>Post your property ad for free</li>
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                        </svg>Post your property ad for free</li>
+                                </ul>
+                            </div>
+
+                            <div class="show-tab-images">
+                                <div class="content-image">
+                                    <img src="images/indivisual.png" alt="">
+                                    <img src="images/indivisual.png" alt="">
+                                    <img src="images/indivisual.png" alt="">
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-signup">
+                            <form class="needs-validation" novalidate>
+                                <div class="mb-3">
+                                    <label for="exampleInputName1" class="form-label">Name*</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Name"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide your name.
+                                    </div>
+                                </div>
+
+                                <label for="validationCustom03" class="form-label">Mobile Number*</label>
+                                <div class="input-group mb-3">
+                                    <input type="number" class="form-control" placeholder="9800000000"
+                                        id="validationCustom03" required>
+                                    <button class="btn btn-primary" type="button" id="button-addon2">Send OTP</button>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid mobile number.
+                                    </div>
+
+                                </div>
+
+                                <div class="verify_otp" style="display: none;">
+                                    <label for="exampleInputOtp1" class="form-label">Enter OTP*</label>
+                                    <div class="inputs mb-3">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="989898"
+                                                aria-label="OTP" required>
+                                            <button class="btn btn-primary" type="button"
+                                                id="verify-otp-button">Verify</button>
+                                        </div>
+                                        <span>Did not receive OTP? <br> Request OTP and call</span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email*</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Enter email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email.
+                                    </div>
+                                </div>
+
+                                <div class="btn-tab">
+                                    <label for="exampleFormControlInput1" class="form-label">Register As</label>
+                                    <div class="tab">
+                                        <button type="button" class="btn btn-primary"
+                                            id="indivisual-tab">Indivisual</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            id="builder-tab">Builder</button>
+                                        <button type="button" class="btn btn-secondary" id="vendor-tab">Vendor</button>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-continue">Continue</button>
+
+                                <div class="form-links">
+                                    <span class="how">How it works?</span>
+                                    <span>FAQs</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-howworks">
+            <div class="container">
+                <div class="content">
+                    <div class="d-flex flex-row justify-content-between text-center">
+                        <div>
+                            <h4>No.1</h4>
+                            <span>Property Destination</span>
+                        </div>
+                        <div>
+                            <h4>1 Lakh+</h4>
+                            <span>Owner</span>
+                        </div>
+                        <div>
+                            <h4>1.5 Cr+</h4>
+                            <span>Tenants/Buyers</span>
+                        </div>
+                    </div>
+                    <div class="how-content">
+                        <span class="title">How it works</span>
+                        <div class="tabs">
+
+                            <div class="steps">
+                                <img src="images/img1.svg" alt="" class="width:150px">
+                                <div class="content">
+                                    <h5>Fill up the property details</h5>
+                                    <span>Use our easy and quick self-upload feature to provide few basic details and
+                                        photograph.</span>
+                                </div>
+
+                            </div>
+                            <div class="steps">
+                                <img src="images/img2.svg" alt="" class="width:150px">
+                                <div class="content">
+                                    <h5>Property review process</h5>
+                                    <span>Our in house quality team will review your property details.</span>
+                                </div>
+                            </div>
+                            <div class="steps">
+                                <img src="images/img3.svg" alt="" class="width:150px">
+                                <div class="content">
+                                    <h5>Your property goes live</h5>
+                                    <span>Sit back and relax as enquiries begin to pour in.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="section-FAQ">
+            <div class="container">
+                <div class="content">
+                    <span class="title">FAQs</span>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How do I post a property for rent on Realezi.com ?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What details should I include to advertise my property for sale on Realezi.com?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What are the benefits of posting a property on Realezi.com?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const form = document.querySelector('.needs-validation');
+            form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+
+
+            const sendOtpButton = document.getElementById('button-addon2');
+            const verifyOtpSection = document.querySelector('.verify_otp');
+            sendOtpButton.addEventListener('click', function () {
+                const mobileNumberInput = document.getElementById('validationCustom03');
+                if (mobileNumberInput.value.trim() === "") {
+                    mobileNumberInput.classList.add('is-invalid');
+
+                } else {
+                    mobileNumberInput.classList.remove('is-invalid');
+                    mobileNumberInput.classList.add('is-valid');
+                    verifyOtpSection.style.display = 'block';
+                }
+            });
+
+            // -------------------------------------
+
+            const tabs = document.querySelectorAll('.btn-tab .btn');
+            const images = document.querySelectorAll('.content-image img');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    tabs.forEach(btn => btn.classList.remove('btn-primary'));
+                    tabs.forEach(btn => btn.classList.add('btn-secondary'));
+                    this.classList.remove('btn-secondary');
+                    this.classList.add('btn-primary');
+
+                    // Handle image display based on selected tab
+                    const tabId = this.id;
+                    images.forEach(img => img.classList.remove('active', 'inactive'));
+
+                    switch (tabId) {
+                        case 'indivisual-tab':
+                            images[0].classList.add('active');
+                            images[1].classList.add('inactive');
+                            images[2].classList.add('inactive');
+                            break;
+                        case 'builder-tab':
+                            images[1].classList.add('active');
+                            images[0].classList.add('inactive');
+                            images[2].classList.add('inactive');
+                            break;
+                        case 'vendor-tab':
+                            images[2].classList.add('active');
+                            images[0].classList.add('inactive');
+                            images[1].classList.add('inactive');
+                            break;
+                    }
+                });
+            });
+
+            // Set initial state
+            document.getElementById('indivisual-tab').click();
+
+            // Initialize with the first tab active
+            updateImages(0);
+
+
+
+            // ---------------------------------
+
+
+            const questions = document.querySelectorAll('.questions');
+
+            questions.forEach(question => {
+                const ques = question.querySelector('.ques');
+                ques.addEventListener('click', () => {
+                    question.classList.toggle('active');
+                });
+            });
+
+
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>

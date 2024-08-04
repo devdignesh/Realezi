@@ -1,0 +1,246 @@
+body {
+  color: white;
+}
+section {
+  display: block;
+}
+
+/* *********************************** */
+/* Section Login */
+/* *********************************** */
+
+.section-loginup {
+  background-color: #041a3f;
+  overflow: hidden; 
+}
+.brandIcon {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+}
+.brandIcon span {
+  border: 1px solid white;
+  border-radius: 100%;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+.section-loginup .main {
+  padding: 20px;
+  padding-top: 50px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.section-loginup .main .title,
+.signup-content {
+  margin-left: 0px;
+}
+.section-loginup .main .sub-title {
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.section-loginup .main .signup-content {
+  margin-top: 30px;
+}
+.section-loginup .main .signup-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.section-loginup .main .signup-content li {
+  margin: 20px 0px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.section-loginup .main .signup-content li svg {
+  margin-right: 10px;
+  fill: #de761c;
+}
+
+.relative-form {
+  position: relative;
+ 
+}
+
+.section-loginup .main .content-image{
+  display: none;
+}
+.section-loginup .main .content-image img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  bottom: 0; 
+  left: -100px;
+
+}
+
+.form-signup {
+  width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  right: 100px;
+  top: 135px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 4px 4px);
+}
+
+.form-signup form label {
+  color: black;
+}
+
+.btn-tab .tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-continue {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.verify_otp .input-group {
+  width: 150px;
+}
+
+.verify_otp .inputs {
+  display: flex;
+  flex-direction: row;
+}
+.verify_otp .inputs span {
+  color: black;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-signup .form-links .not {
+  color: white;
+  cursor: pointer;
+}
+.form-signup .form-links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.form-signup .form-links span {
+  color: #de761c;
+  cursor: pointer;
+  margin: 0 4px;
+}
+.form-signup .form-links .link a {
+  text-decoration: none;
+  color: #de761c;
+}
+
+.get-OTP {
+  display: none;
+}
+
+.form-signup .get-OTP .title {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.get-OTP .edit {
+  color: #de761c;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .form-signup {
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 6px;
+    right: 100px;
+    top: 135px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 4px 4px);
+  }
+}
+
+@media (min-width: 992px) {
+  .section-loginup .main .content-image {
+    display: block;
+  }
+  .relative-form {
+    position: relative;
+    height: 600px;
+  }
+
+}
+
+@media (min-width: 1200px) { 
+
+  .relative-form { 
+    height: 760px;
+  }
+
+}
+
+
+/* *********************************** */
+/* section-howworks */
+/* *********************************** */
+
+.section-howworks {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.content {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.content h4 {
+  font-weight: 700;
+  color: black;
+}
+.content span {
+  padding-top: 0px;
+  color: rgb(63, 63, 63);
+  font-weight: 500;
+}
+.how-content {
+  margin-top: 50px;
+}
+.how-content .tabs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.how-content .tabs .content {
+  padding-left: 40px;
+}
+.how-content .tabs .steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-top: 25px;
+}
+.how-content .title {
+  color: black;
+  font-weight: 500;
+  font-size: 26px;
+}
+.how-content .tabs {
+  color: black;
+}
