@@ -204,6 +204,7 @@ html {
 .hero .content .main {
   width: 50%;
   margin-top: 180px;
+  z-index: 10;
 }
 
 .hero .content .main .hero-button {
@@ -674,6 +675,7 @@ html {
 
   .cal-info .cal-info-column .cal-card {
     min-width: 90%;
+    width: 100%;
   }
 }
 
@@ -682,7 +684,7 @@ html {
 /* ------------------------- */
 
 .future-info {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .future-info .container {
@@ -734,6 +736,9 @@ html {
 }
 
 @media (max-width: 768px) {
+  .future-info {
+    margin-top: 50px;
+  }
   .future-info .content {
     flex-direction: column;
     text-align: center;
