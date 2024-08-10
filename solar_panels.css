@@ -101,7 +101,7 @@ html {
 }
 
 /* ------------------------- */
-/* Section footer */
+/* section-fotter */
 /* ------------------------- */
 
 .footer-p1 ul li {
@@ -187,7 +187,7 @@ html {
   width: 840px;
   position: absolute;
   left: -7px;
-  top: 100px; 
+  top: 100px;
 }
 
 .hero .content .title {
@@ -320,12 +320,10 @@ html {
     width: 100%;
   }
 }
- 
+
 .sparkling-thunder-cursor {
   cursor: url("images/sparkling-thunder.png"), auto;
 }
-
- 
 
 /* Free Consultation Form start*/
 
@@ -471,16 +469,14 @@ html {
 /* Section hero-two */
 /* ------------------------- */
 
-.hero-two { 
-  height: auto; 
+.hero-two {
+  height: auto;
   position: relative;
-
 }
 
-.bg-hero{
+.bg-hero {
   z-index: -10;
   background: linear-gradient(to top, #e9efff, transparent);
-
 }
 
 .hero-two .container {
@@ -1036,7 +1032,6 @@ html {
 }
 
 @media (max-width: 767px) {
-
   .illustration-card {
     margin-top: 80px;
     margin-bottom: 50px;
@@ -1130,7 +1125,6 @@ html {
     padding: 20px 15px;
   }
 
- 
   .talk-to-experts .container .content .title {
     font-size: 22px;
     margin-top: 15px;
@@ -1158,8 +1152,6 @@ html {
     right: 20px;
     bottom: -30px;
   }
-
-  
 }
 
 /* ------------------------- */
@@ -1264,8 +1256,15 @@ html {
 .work-tabs {
   margin-top: 50px;
 }
+.work-tabs .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .work-tabs .content {
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1323,15 +1322,15 @@ html {
 }
 
 .work-tabs .content .related-content .tab .tab_img {
-  height: 400px;
+  height: 480px;
   max-width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .work-tabs .content .related-content .tab .title {
   font-size: 20px;
   font-weight: 700;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .work-tabs .content .related-content .tab .description {
@@ -1340,16 +1339,11 @@ html {
   margin-top: 10px;
 }
 
-
 .work-tabs .content .related-content .tab .line {
- 
   height: 2px;
-  width: 30%;  
-  background-color: #94B9FF;
+  width: 30%;
+  background-color: #94b9ff;
 }
-
- 
-
 
 @media (max-width: 768px) {
   .work-tabs .content {
@@ -1369,9 +1363,16 @@ html {
     font-size: 14px;
     font-weight: 500;
   }
-
- 
-
 }
 
- 
+@media (max-width: 992px) {
+  .work-tabs .content .related-content .tab .tab_img {
+    height: 400px;
+  
+  }
+}
+@media (max-width: 1200px) {
+  .work-tabs .content {
+    width: 100%;
+  }
+}
