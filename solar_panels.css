@@ -300,6 +300,7 @@ html {
     padding: 10px 20px;
     margin-top: 10px;
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -470,8 +471,7 @@ html {
 /* Section hero-two */
 /* ------------------------- */
 
-.hero-two {
-  margin-top: 40px;
+.hero-two { 
   height: auto; 
   position: relative;
 
@@ -801,6 +801,7 @@ html {
 @media (max-width: 767px) {
   .features {
     margin-top: 80px;
+    margin-bottom: 40px;
   }
   .features .title {
     font-size: 1.1rem;
@@ -886,6 +887,10 @@ html {
 }
 
 @media (max-width: 992px) {
+  .solar-carousel {
+    margin-top: 0px;
+  }
+
   .solar-carousel .content {
     padding: 20px;
     flex-direction: column;
@@ -959,6 +964,10 @@ html {
 }
 
 @media (max-width: 767px) {
+  .web-info {
+    margin-top: 80px;
+  }
+
   .web-info .content {
     margin: 20px;
   }
@@ -1027,6 +1036,12 @@ html {
 }
 
 @media (max-width: 767px) {
+
+  .illustration-card {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
   .illustration-card .content .card {
     max-width: 100%;
     margin-bottom: 20px;
@@ -1115,13 +1130,14 @@ html {
     padding: 20px 15px;
   }
 
-  .talk-to-experts .content .title {
-    font-size: 28px;
+ 
+  .talk-to-experts .container .content .title {
+    font-size: 22px;
     margin-top: 15px;
   }
 
   .talk-to-experts .content .description {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 15px;
   }
 
@@ -1142,6 +1158,8 @@ html {
     right: 20px;
     bottom: -30px;
   }
+
+  
 }
 
 /* ------------------------- */
